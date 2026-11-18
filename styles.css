@@ -1,0 +1,73 @@
+body {
+  margin: 0; /* Removes the default white space around the edges of the page */
+  background-color: #f4f1ea; /* Sets a soft, warm cream background for the whole page */
+  font-family: Georgia, serif; /* Uses a classic, elegant serif font as the base style */
+}
+
+.hero {
+  background-color: #eae4d7; /* Fills the hero section with a subdued, warm sand tone */
+  text-align: center; /* Centers the image, text, and button horizontally */
+  padding-top: 80px; /* Adds generous empty space above the content */
+  padding-bottom: 90px; /* Adds generous empty space below the content */
+  padding-left: 20px; /* Prevents content from touching the left screen edge */
+  padding-right: 20px; /* Prevents content from touching the right screen edge */
+}
+
+img {
+  width: 140px; /* Sets the image to a small, neat width */
+  height: 140px; /* Keeps the height equal to the width for a balanced shape */
+  border-radius: 50%; /* Rounds the image into a smooth circle */
+  box-shadow: 0 10px 25px rgba(44, 40, 37, 0.15); /* Adds a soft, subtle shadow behind the image */
+  margin-bottom: 24px; /* Creates breathing room between the image and the main heading */
+}
+
+h1 {
+  font-family: 'Rubik', sans-serif; /* Applies the 'Rubik' Google Font to the main heading */
+  color: #2c2825; /* Sets the main heading to a deep espresso brown */
+  font-size: 48px; /* Makes the brand name large and prominent */
+  margin-top: 0; /* Removes extra default space above the heading */
+  margin-bottom: 12px; /* Adds a small gap between the main heading and subheading */
+  letter-spacing: 1px; /* Slightly spaces out the letters for an airy feel */
+}
+
+h2 {
+  color: #786c5e; /* Colors the subheading in a muted, earthy taupe */
+  font-family: Arial, sans-serif; /* Switches to a clean sans-serif font for contrast */
+  font-size: 18px; /* Sets a moderate, readable size for the subheading */
+  font-weight: normal; /* Keeps the subheading light and understated rather than bold */
+  text-transform: uppercase; /* Displays the subheading in all capital letters */
+  letter-spacing: 2px; /* Widens the spacing between capital letters for elegance */
+  margin-top: 0; /* Removes default top spacing */
+  margin-bottom: 24px; /* Creates breathing room before the description paragraph */
+}
+
+p {
+  color: #4a443f; /* Uses a soft charcoal-brown for comfortable reading */
+  font-family: Arial, sans-serif; /* Keeps the body copy clean and easy to read */
+  font-size: 17px; /* Sets a comfortable reading size for the description */
+  line-height: 1.6; /* Adds vertical space between lines of text */
+  max-width: 560px; /* Limits line width so the paragraph stays neat and centered */
+  margin-top: 0; /* Removes default top spacing */
+  margin-bottom: 34px; /* Adds space between the paragraph and the button */
+  margin-left: auto; /* Helps center the constrained paragraph block horizontally */
+  margin-right: auto; /* Completes horizontal centering of the paragraph block */
+}
+
+.cta-button {
+  display: inline-block; /* Allows padding and margins to work properly on a link */
+  background-color: #8a6a4b; /* Gives the button a warm, earthy clay-brown color */
+  color: #ffffff; /* Makes the button label crisp white */
+  text-decoration: none; /* Removes the default underline from the link */
+  font-family: Arial, sans-serif; /* Matches the clean font used in the subheading and paragraph */
+  font-size: 16px; /* Sets a clear, legible button text size */
+  font-weight: bold; /* Makes the call-to-action label stand out */
+  padding-top: 15px; /* Adds inner space above the button text */
+  padding-bottom: 15px; /* Adds inner space below the button text */
+  padding-left: 32px; /* Adds inner space to the left of the button text */
+  padding-right: 32px; /* Adds inner space to the right of the button text */
+  border-radius: 30px; /* Rounds the corners into a smooth, floating pill shape */
+}
+
+.cta-button:hover {
+  background-color: #6e5339; /* Darkens the earthy brown slightly when hovered over */
+}
